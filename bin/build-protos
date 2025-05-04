@@ -52,7 +52,10 @@ run_protoc \
     "$PROTOS_PATH"/dota_gcmessages_client_watch.proto \
     "$PROTOS_PATH"/dota_gcmessages_msgid.proto \
     "$PROTOS_PATH"/gcsystemmsgs.proto \
-    "$PROTOS_PATH"/base_gcmessages.proto
+    "$PROTOS_PATH"/base_gcmessages.proto \
+    "$PROTOS_PATH"/dota_shared_enums.proto \
+    "$PROTOS_PATH"/dota_gcmessages_client_guild.proto \
+    "$PROTOS_PATH"/dota_gcmessages_client_guild_events.proto
 
 log 'Generating exports file'
 cat << EOF > "$EXPORTS_FILE"

@@ -3,6 +3,8 @@
 
 export * from './generated/base_gcmessages';
 export * from './generated/dota_gcmessages_client';
+export * from './generated/dota_gcmessages_client_guild';
+export * from './generated/dota_gcmessages_client_guild_events';
 export * from './generated/dota_gcmessages_client_watch';
 export * from './generated/dota_gcmessages_common';
 export * from './generated/dota_gcmessages_common_craftworks';

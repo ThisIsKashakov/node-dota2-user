@@ -142,17 +142,43 @@ export const ClientProtobufs = {
     [protobufs.EDOTAGCMsg.k_EMsgGCtoGCAssociatedExploiterAccountInfo]: protobufs.CMsgGCtoGCAssociatedExploiterAccountInfo as MessageFns<protobufs.CMsgGCtoGCAssociatedExploiterAccountInfo>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftBuy]: protobufs.CMsgClientToGCUnderDraftBuy as MessageFns<protobufs.CMsgClientToGCUnderDraftBuy>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftReroll]: protobufs.CMsgClientToGCUnderDraftReroll as MessageFns<protobufs.CMsgClientToGCUnderDraftReroll>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCreateGuild]: protobufs.CMsgClientToGCCreateGuild as MessageFns<protobufs.CMsgClientToGCCreateGuild>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildInfo]: protobufs.CMsgClientToGCSetGuildInfo as MessageFns<protobufs.CMsgClientToGCSetGuildInfo>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddGuildRole]: protobufs.CMsgClientToGCAddGuildRole as MessageFns<protobufs.CMsgClientToGCAddGuildRole>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCModifyGuildRole]: protobufs.CMsgClientToGCModifyGuildRole as MessageFns<protobufs.CMsgClientToGCModifyGuildRole>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRemoveGuildRole]: protobufs.CMsgClientToGCRemoveGuildRole as MessageFns<protobufs.CMsgClientToGCRemoveGuildRole>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCJoinGuild]: protobufs.CMsgClientToGCJoinGuild as MessageFns<protobufs.CMsgClientToGCJoinGuild>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCLeaveGuild]: protobufs.CMsgClientToGCLeaveGuild as MessageFns<protobufs.CMsgClientToGCLeaveGuild>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCInviteToGuild]: protobufs.CMsgClientToGCInviteToGuild as MessageFns<protobufs.CMsgClientToGCInviteToGuild>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCDeclineInviteToGuild]: protobufs.CMsgClientToGCDeclineInviteToGuild as MessageFns<protobufs.CMsgClientToGCDeclineInviteToGuild>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCancelInviteToGuild]: protobufs.CMsgClientToGCCancelInviteToGuild as MessageFns<protobufs.CMsgClientToGCCancelInviteToGuild>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCKickGuildMember]: protobufs.CMsgClientToGCKickGuildMember as MessageFns<protobufs.CMsgClientToGCKickGuildMember>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildMemberRole]: protobufs.CMsgClientToGCSetGuildMemberRole as MessageFns<protobufs.CMsgClientToGCSetGuildMemberRole>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildData]: protobufs.CMsgClientToGCRequestGuildData as MessageFns<protobufs.CMsgClientToGCRequestGuildData>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildMembership]: protobufs.CMsgClientToGCRequestGuildMembership as MessageFns<protobufs.CMsgClientToGCRequestGuildMembership>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAcceptInviteToGuild]: protobufs.CMsgClientToGCAcceptInviteToGuild as MessageFns<protobufs.CMsgClientToGCAcceptInviteToGuild>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildRoleOrder]: protobufs.CMsgClientToGCSetGuildRoleOrder as MessageFns<protobufs.CMsgClientToGCSetGuildRoleOrder>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildEventData]: protobufs.CMsgClientToGCRequestAccountGuildEventData as MessageFns<protobufs.CMsgClientToGCRequestAccountGuildEventData>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildContracts]: protobufs.CMsgClientToGCRequestActiveGuildContracts as MessageFns<protobufs.CMsgClientToGCRequestActiveGuildContracts>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSelectGuildContract]: protobufs.CMsgClientToGCSelectGuildContract as MessageFns<protobufs.CMsgClientToGCSelectGuildContract>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddPlayerToGuildChat]: protobufs.CMsgClientToGCAddPlayerToGuildChat as MessageFns<protobufs.CMsgClientToGCAddPlayerToGuildChat>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftSell]: protobufs.CMsgClientToGCUnderDraftSell as MessageFns<protobufs.CMsgClientToGCUnderDraftSell>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRequest]: protobufs.CMsgClientToGCUnderDraftRequest as MessageFns<protobufs.CMsgClientToGCUnderDraftRequest>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRedeemReward]: protobufs.CMsgClientToGCUnderDraftRedeemReward as MessageFns<protobufs.CMsgClientToGCUnderDraftRedeemReward>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildChallenge]: protobufs.CMsgClientToGCRequestActiveGuildChallenge as MessageFns<protobufs.CMsgClientToGCRequestActiveGuildChallenge>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestReporterUpdates]: protobufs.CMsgClientToGCRequestReporterUpdates as MessageFns<protobufs.CMsgClientToGCRequestReporterUpdates>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCAcknowledgeReporterUpdates]: protobufs.CMsgClientToGCAcknowledgeReporterUpdates as MessageFns<protobufs.CMsgClientToGCAcknowledgeReporterUpdates>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildEventMembers]: protobufs.CMsgClientToGCRequestGuildEventMembers as MessageFns<protobufs.CMsgClientToGCRequestGuildEventMembers>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCReportGuildContent]: protobufs.CMsgClientToGCReportGuildContent as MessageFns<protobufs.CMsgClientToGCReportGuildContent>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfo]: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfo as MessageFns<protobufs.CMsgClientToGCRequestAccountGuildPersonaInfo>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfoBatch]: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoBatch as MessageFns<protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoBatch>,
     [protobufs.EDOTAGCMsg.k_EMsgLobbyFeaturedGamemodeProgress]: protobufs.CMsgLobbyFeaturedGamemodeProgress as MessageFns<protobufs.CMsgLobbyFeaturedGamemodeProgress>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitDraftTriviaMatchAnswer]: protobufs.CMsgClientToGCSubmitDraftTriviaMatchAnswer as MessageFns<protobufs.CMsgClientToGCSubmitDraftTriviaMatchAnswer>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRollBackBench]: protobufs.CMsgClientToGCUnderDraftRollBackBench as MessageFns<protobufs.CMsgClientToGCUnderDraftRollBackBench>,
     [protobufs.EDOTAGCMsg.k_EMsgLobbyEventGameData]: protobufs.CMsgLobbyEventGameData as MessageFns<protobufs.CMsgLobbyEventGameData>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCGetOWMatchDetails]: protobufs.CMsgClientToGCGetOWMatchDetails as MessageFns<protobufs.CMsgClientToGCGetOWMatchDetails>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitOWConviction]: protobufs.CMsgClientToGCSubmitOWConviction as MessageFns<protobufs.CMsgClientToGCSubmitOWConviction>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCClaimLeaderboardRewards]: protobufs.CMsgClientToGCClaimLeaderboardRewards as MessageFns<protobufs.CMsgClientToGCClaimLeaderboardRewards>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRecalibrateMMR]: protobufs.CMsgClientToGCRecalibrateMMR as MessageFns<protobufs.CMsgClientToGCRecalibrateMMR>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAURLRequest]: protobufs.CMsgClientToGCChinaSSAURLRequest as MessageFns<protobufs.CMsgClientToGCChinaSSAURLRequest>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAAcceptedRequest]: protobufs.CMsgClientToGCChinaSSAAcceptedRequest as MessageFns<protobufs.CMsgClientToGCChinaSSAAcceptedRequest>,
@@ -364,17 +390,43 @@ export type ClientProtobufsType = {
     [protobufs.EDOTAGCMsg.k_EMsgGCtoGCAssociatedExploiterAccountInfo]: protobufs.CMsgGCtoGCAssociatedExploiterAccountInfo;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftBuy]: protobufs.CMsgClientToGCUnderDraftBuy;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftReroll]: protobufs.CMsgClientToGCUnderDraftReroll;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCreateGuild]: protobufs.CMsgClientToGCCreateGuild;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildInfo]: protobufs.CMsgClientToGCSetGuildInfo;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddGuildRole]: protobufs.CMsgClientToGCAddGuildRole;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCModifyGuildRole]: protobufs.CMsgClientToGCModifyGuildRole;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRemoveGuildRole]: protobufs.CMsgClientToGCRemoveGuildRole;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCJoinGuild]: protobufs.CMsgClientToGCJoinGuild;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCLeaveGuild]: protobufs.CMsgClientToGCLeaveGuild;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCInviteToGuild]: protobufs.CMsgClientToGCInviteToGuild;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCDeclineInviteToGuild]: protobufs.CMsgClientToGCDeclineInviteToGuild;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCancelInviteToGuild]: protobufs.CMsgClientToGCCancelInviteToGuild;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCKickGuildMember]: protobufs.CMsgClientToGCKickGuildMember;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildMemberRole]: protobufs.CMsgClientToGCSetGuildMemberRole;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildData]: protobufs.CMsgClientToGCRequestGuildData;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildMembership]: protobufs.CMsgClientToGCRequestGuildMembership;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAcceptInviteToGuild]: protobufs.CMsgClientToGCAcceptInviteToGuild;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildRoleOrder]: protobufs.CMsgClientToGCSetGuildRoleOrder;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildEventData]: protobufs.CMsgClientToGCRequestAccountGuildEventData;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildContracts]: protobufs.CMsgClientToGCRequestActiveGuildContracts;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSelectGuildContract]: protobufs.CMsgClientToGCSelectGuildContract;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddPlayerToGuildChat]: protobufs.CMsgClientToGCAddPlayerToGuildChat;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftSell]: protobufs.CMsgClientToGCUnderDraftSell;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRequest]: protobufs.CMsgClientToGCUnderDraftRequest;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRedeemReward]: protobufs.CMsgClientToGCUnderDraftRedeemReward;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildChallenge]: protobufs.CMsgClientToGCRequestActiveGuildChallenge;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestReporterUpdates]: protobufs.CMsgClientToGCRequestReporterUpdates;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCAcknowledgeReporterUpdates]: protobufs.CMsgClientToGCAcknowledgeReporterUpdates;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildEventMembers]: protobufs.CMsgClientToGCRequestGuildEventMembers;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCReportGuildContent]: protobufs.CMsgClientToGCReportGuildContent;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfo]: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfo;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfoBatch]: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoBatch;
     [protobufs.EDOTAGCMsg.k_EMsgLobbyFeaturedGamemodeProgress]: protobufs.CMsgLobbyFeaturedGamemodeProgress;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitDraftTriviaMatchAnswer]: protobufs.CMsgClientToGCSubmitDraftTriviaMatchAnswer;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRollBackBench]: protobufs.CMsgClientToGCUnderDraftRollBackBench;
     [protobufs.EDOTAGCMsg.k_EMsgLobbyEventGameData]: protobufs.CMsgLobbyEventGameData;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCGetOWMatchDetails]: protobufs.CMsgClientToGCGetOWMatchDetails;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitOWConviction]: protobufs.CMsgClientToGCSubmitOWConviction;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCClaimLeaderboardRewards]: protobufs.CMsgClientToGCClaimLeaderboardRewards;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRecalibrateMMR]: protobufs.CMsgClientToGCRecalibrateMMR;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAURLRequest]: protobufs.CMsgClientToGCChinaSSAURLRequest;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAAcceptedRequest]: protobufs.CMsgClientToGCChinaSSAAcceptedRequest;
@@ -573,14 +625,48 @@ export const GCProtobufs = {
     [protobufs.EDOTAGCMsg.k_EMsgGCToClientVACReminder]: protobufs.CMsgGCToClientVACReminder as MessageFns<protobufs.CMsgGCToClientVACReminder>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftBuyResponse]: protobufs.CMsgClientToGCUnderDraftBuyResponse as MessageFns<protobufs.CMsgClientToGCUnderDraftBuyResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRerollResponse]: protobufs.CMsgClientToGCUnderDraftRerollResponse as MessageFns<protobufs.CMsgClientToGCUnderDraftRerollResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCreateGuildResponse]: protobufs.CMsgClientToGCCreateGuildResponse as MessageFns<protobufs.CMsgClientToGCCreateGuildResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildInfoResponse]: protobufs.CMsgClientToGCSetGuildInfoResponse as MessageFns<protobufs.CMsgClientToGCSetGuildInfoResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddGuildRoleResponse]: protobufs.CMsgClientToGCAddGuildRoleResponse as MessageFns<protobufs.CMsgClientToGCAddGuildRoleResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCModifyGuildRoleResponse]: protobufs.CMsgClientToGCModifyGuildRoleResponse as MessageFns<protobufs.CMsgClientToGCModifyGuildRoleResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRemoveGuildRoleResponse]: protobufs.CMsgClientToGCRemoveGuildRoleResponse as MessageFns<protobufs.CMsgClientToGCRemoveGuildRoleResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCJoinGuildResponse]: protobufs.CMsgClientToGCJoinGuildResponse as MessageFns<protobufs.CMsgClientToGCJoinGuildResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCLeaveGuildResponse]: protobufs.CMsgClientToGCLeaveGuildResponse as MessageFns<protobufs.CMsgClientToGCLeaveGuildResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCInviteToGuildResponse]: protobufs.CMsgClientToGCInviteToGuildResponse as MessageFns<protobufs.CMsgClientToGCInviteToGuildResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCDeclineInviteToGuildResponse]: protobufs.CMsgClientToGCDeclineInviteToGuildResponse as MessageFns<protobufs.CMsgClientToGCDeclineInviteToGuildResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCancelInviteToGuildResponse]: protobufs.CMsgClientToGCCancelInviteToGuildResponse as MessageFns<protobufs.CMsgClientToGCCancelInviteToGuildResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCKickGuildMemberResponse]: protobufs.CMsgClientToGCKickGuildMemberResponse as MessageFns<protobufs.CMsgClientToGCKickGuildMemberResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildMemberRoleResponse]: protobufs.CMsgClientToGCSetGuildMemberRoleResponse as MessageFns<protobufs.CMsgClientToGCSetGuildMemberRoleResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildDataResponse]: protobufs.CMsgClientToGCRequestGuildDataResponse as MessageFns<protobufs.CMsgClientToGCRequestGuildDataResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildDataUpdated]: protobufs.CMsgGCToClientGuildDataUpdated as MessageFns<protobufs.CMsgGCToClientGuildDataUpdated>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildMembershipResponse]: protobufs.CMsgClientToGCRequestGuildMembershipResponse as MessageFns<protobufs.CMsgClientToGCRequestGuildMembershipResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildMembershipUpdated]: protobufs.CMsgGCToClientGuildMembershipUpdated as MessageFns<protobufs.CMsgGCToClientGuildMembershipUpdated>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAcceptInviteToGuildResponse]: protobufs.CMsgClientToGCAcceptInviteToGuildResponse as MessageFns<protobufs.CMsgClientToGCAcceptInviteToGuildResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildRoleOrderResponse]: protobufs.CMsgClientToGCSetGuildRoleOrderResponse as MessageFns<protobufs.CMsgClientToGCSetGuildRoleOrderResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildFeedResponse]: protobufs.CMsgClientToGCRequestGuildFeedResponse as MessageFns<protobufs.CMsgClientToGCRequestGuildFeedResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildEventDataResponse]: protobufs.CMsgClientToGCRequestAccountGuildEventDataResponse as MessageFns<protobufs.CMsgClientToGCRequestAccountGuildEventDataResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientAccountGuildEventDataUpdated]: protobufs.CMsgGCToClientAccountGuildEventDataUpdated as MessageFns<protobufs.CMsgGCToClientAccountGuildEventDataUpdated>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildContractsResponse]: protobufs.CMsgClientToGCRequestActiveGuildContractsResponse as MessageFns<protobufs.CMsgClientToGCRequestActiveGuildContractsResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientActiveGuildContractsUpdated]: protobufs.CMsgGCToClientActiveGuildContractsUpdated as MessageFns<protobufs.CMsgGCToClientActiveGuildContractsUpdated>,
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildFeedUpdated]: protobufs.CMsgGCToClientGuildFeedUpdated as MessageFns<protobufs.CMsgGCToClientGuildFeedUpdated>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSelectGuildContractResponse]: protobufs.CMsgClientToGCSelectGuildContractResponse as MessageFns<protobufs.CMsgClientToGCSelectGuildContractResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddPlayerToGuildChatResponse]: protobufs.CMsgClientToGCAddPlayerToGuildChatResponse as MessageFns<protobufs.CMsgClientToGCAddPlayerToGuildChatResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftSellResponse]: protobufs.CMsgClientToGCUnderDraftSellResponse as MessageFns<protobufs.CMsgClientToGCUnderDraftSellResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftResponse]: protobufs.CMsgClientToGCUnderDraftResponse as MessageFns<protobufs.CMsgClientToGCUnderDraftResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRedeemRewardResponse]: protobufs.CMsgClientToGCUnderDraftRedeemRewardResponse as MessageFns<protobufs.CMsgClientToGCUnderDraftRedeemRewardResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildChallengeResponse]: protobufs.CMsgClientToGCRequestActiveGuildChallengeResponse as MessageFns<protobufs.CMsgClientToGCRequestActiveGuildChallengeResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientActiveGuildChallengeUpdated]: protobufs.CMsgGCToClientActiveGuildChallengeUpdated as MessageFns<protobufs.CMsgGCToClientActiveGuildChallengeUpdated>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestReporterUpdatesResponse]: protobufs.CMsgClientToGCRequestReporterUpdatesResponse as MessageFns<protobufs.CMsgClientToGCRequestReporterUpdatesResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildEventMembersResponse]: protobufs.CMsgClientToGCRequestGuildEventMembersResponse as MessageFns<protobufs.CMsgClientToGCRequestGuildEventMembersResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCReportGuildContentResponse]: protobufs.CMsgClientToGCReportGuildContentResponse as MessageFns<protobufs.CMsgClientToGCReportGuildContentResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfoResponse]: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoResponse as MessageFns<protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse]: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse as MessageFns<protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitDraftTriviaMatchAnswerResponse]: protobufs.CMsgClientToGCSubmitDraftTriviaMatchAnswerResponse as MessageFns<protobufs.CMsgClientToGCSubmitDraftTriviaMatchAnswerResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRollBackBenchResponse]: protobufs.CMsgClientToGCUnderDraftRollBackBenchResponse as MessageFns<protobufs.CMsgClientToGCUnderDraftRollBackBenchResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildMembersDataUpdated]: protobufs.CMsgGCToClientGuildMembersDataUpdated as MessageFns<protobufs.CMsgGCToClientGuildMembersDataUpdated>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCGetOWMatchDetailsResponse]: protobufs.CMsgClientToGCGetOWMatchDetailsResponse as MessageFns<protobufs.CMsgClientToGCGetOWMatchDetailsResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitOWConvictionResponse]: protobufs.CMsgClientToGCSubmitOWConvictionResponse as MessageFns<protobufs.CMsgClientToGCSubmitOWConvictionResponse>,
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCClaimLeaderboardRewardsResponse]: protobufs.CMsgClientToGCClaimLeaderboardRewardsResponse as MessageFns<protobufs.CMsgClientToGCClaimLeaderboardRewardsResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRecalibrateMMRResponse]: protobufs.CMsgClientToGCRecalibrateMMRResponse as MessageFns<protobufs.CMsgClientToGCRecalibrateMMRResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAURLResponse]: protobufs.CMsgClientToGCChinaSSAURLResponse as MessageFns<protobufs.CMsgClientToGCChinaSSAURLResponse>,
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAAcceptedResponse]: protobufs.CMsgClientToGCChinaSSAAcceptedResponse as MessageFns<protobufs.CMsgClientToGCChinaSSAAcceptedResponse>,
@@ -774,14 +860,48 @@ export type GCProtobufsType = {
     [protobufs.EDOTAGCMsg.k_EMsgGCToClientVACReminder]: protobufs.CMsgGCToClientVACReminder;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftBuyResponse]: protobufs.CMsgClientToGCUnderDraftBuyResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRerollResponse]: protobufs.CMsgClientToGCUnderDraftRerollResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCreateGuildResponse]: protobufs.CMsgClientToGCCreateGuildResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildInfoResponse]: protobufs.CMsgClientToGCSetGuildInfoResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddGuildRoleResponse]: protobufs.CMsgClientToGCAddGuildRoleResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCModifyGuildRoleResponse]: protobufs.CMsgClientToGCModifyGuildRoleResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRemoveGuildRoleResponse]: protobufs.CMsgClientToGCRemoveGuildRoleResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCJoinGuildResponse]: protobufs.CMsgClientToGCJoinGuildResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCLeaveGuildResponse]: protobufs.CMsgClientToGCLeaveGuildResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCInviteToGuildResponse]: protobufs.CMsgClientToGCInviteToGuildResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCDeclineInviteToGuildResponse]: protobufs.CMsgClientToGCDeclineInviteToGuildResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCancelInviteToGuildResponse]: protobufs.CMsgClientToGCCancelInviteToGuildResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCKickGuildMemberResponse]: protobufs.CMsgClientToGCKickGuildMemberResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildMemberRoleResponse]: protobufs.CMsgClientToGCSetGuildMemberRoleResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildDataResponse]: protobufs.CMsgClientToGCRequestGuildDataResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildDataUpdated]: protobufs.CMsgGCToClientGuildDataUpdated;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildMembershipResponse]: protobufs.CMsgClientToGCRequestGuildMembershipResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildMembershipUpdated]: protobufs.CMsgGCToClientGuildMembershipUpdated;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAcceptInviteToGuildResponse]: protobufs.CMsgClientToGCAcceptInviteToGuildResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildRoleOrderResponse]: protobufs.CMsgClientToGCSetGuildRoleOrderResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildFeedResponse]: protobufs.CMsgClientToGCRequestGuildFeedResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildEventDataResponse]: protobufs.CMsgClientToGCRequestAccountGuildEventDataResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientAccountGuildEventDataUpdated]: protobufs.CMsgGCToClientAccountGuildEventDataUpdated;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildContractsResponse]: protobufs.CMsgClientToGCRequestActiveGuildContractsResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientActiveGuildContractsUpdated]: protobufs.CMsgGCToClientActiveGuildContractsUpdated;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildFeedUpdated]: protobufs.CMsgGCToClientGuildFeedUpdated;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSelectGuildContractResponse]: protobufs.CMsgClientToGCSelectGuildContractResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddPlayerToGuildChatResponse]: protobufs.CMsgClientToGCAddPlayerToGuildChatResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftSellResponse]: protobufs.CMsgClientToGCUnderDraftSellResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftResponse]: protobufs.CMsgClientToGCUnderDraftResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRedeemRewardResponse]: protobufs.CMsgClientToGCUnderDraftRedeemRewardResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildChallengeResponse]: protobufs.CMsgClientToGCRequestActiveGuildChallengeResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientActiveGuildChallengeUpdated]: protobufs.CMsgGCToClientActiveGuildChallengeUpdated;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestReporterUpdatesResponse]: protobufs.CMsgClientToGCRequestReporterUpdatesResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildEventMembersResponse]: protobufs.CMsgClientToGCRequestGuildEventMembersResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCReportGuildContentResponse]: protobufs.CMsgClientToGCReportGuildContentResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfoResponse]: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse]: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitDraftTriviaMatchAnswerResponse]: protobufs.CMsgClientToGCSubmitDraftTriviaMatchAnswerResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRollBackBenchResponse]: protobufs.CMsgClientToGCUnderDraftRollBackBenchResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildMembersDataUpdated]: protobufs.CMsgGCToClientGuildMembersDataUpdated;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCGetOWMatchDetailsResponse]: protobufs.CMsgClientToGCGetOWMatchDetailsResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitOWConvictionResponse]: protobufs.CMsgClientToGCSubmitOWConvictionResponse;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCClaimLeaderboardRewardsResponse]: protobufs.CMsgClientToGCClaimLeaderboardRewardsResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRecalibrateMMRResponse]: protobufs.CMsgClientToGCRecalibrateMMRResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAURLResponse]: protobufs.CMsgClientToGCChinaSSAURLResponse;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAAcceptedResponse]: protobufs.CMsgClientToGCChinaSSAAcceptedResponse;
@@ -974,14 +1094,48 @@ export type GCEvents = {
     [protobufs.EDOTAGCMsg.k_EMsgGCToClientVACReminder]: (data: protobufs.CMsgGCToClientVACReminder) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftBuyResponse]: (data: protobufs.CMsgClientToGCUnderDraftBuyResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRerollResponse]: (data: protobufs.CMsgClientToGCUnderDraftRerollResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCreateGuildResponse]: (data: protobufs.CMsgClientToGCCreateGuildResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildInfoResponse]: (data: protobufs.CMsgClientToGCSetGuildInfoResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddGuildRoleResponse]: (data: protobufs.CMsgClientToGCAddGuildRoleResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCModifyGuildRoleResponse]: (data: protobufs.CMsgClientToGCModifyGuildRoleResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRemoveGuildRoleResponse]: (data: protobufs.CMsgClientToGCRemoveGuildRoleResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCJoinGuildResponse]: (data: protobufs.CMsgClientToGCJoinGuildResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCLeaveGuildResponse]: (data: protobufs.CMsgClientToGCLeaveGuildResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCInviteToGuildResponse]: (data: protobufs.CMsgClientToGCInviteToGuildResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCDeclineInviteToGuildResponse]: (data: protobufs.CMsgClientToGCDeclineInviteToGuildResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCCancelInviteToGuildResponse]: (data: protobufs.CMsgClientToGCCancelInviteToGuildResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCKickGuildMemberResponse]: (data: protobufs.CMsgClientToGCKickGuildMemberResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildMemberRoleResponse]: (data: protobufs.CMsgClientToGCSetGuildMemberRoleResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildDataResponse]: (data: protobufs.CMsgClientToGCRequestGuildDataResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildDataUpdated]: (data: protobufs.CMsgGCToClientGuildDataUpdated) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildMembershipResponse]: (data: protobufs.CMsgClientToGCRequestGuildMembershipResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildMembershipUpdated]: (data: protobufs.CMsgGCToClientGuildMembershipUpdated) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAcceptInviteToGuildResponse]: (data: protobufs.CMsgClientToGCAcceptInviteToGuildResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSetGuildRoleOrderResponse]: (data: protobufs.CMsgClientToGCSetGuildRoleOrderResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildFeedResponse]: (data: protobufs.CMsgClientToGCRequestGuildFeedResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildEventDataResponse]: (data: protobufs.CMsgClientToGCRequestAccountGuildEventDataResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientAccountGuildEventDataUpdated]: (data: protobufs.CMsgGCToClientAccountGuildEventDataUpdated) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildContractsResponse]: (data: protobufs.CMsgClientToGCRequestActiveGuildContractsResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientActiveGuildContractsUpdated]: (data: protobufs.CMsgGCToClientActiveGuildContractsUpdated) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildFeedUpdated]: (data: protobufs.CMsgGCToClientGuildFeedUpdated) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCSelectGuildContractResponse]: (data: protobufs.CMsgClientToGCSelectGuildContractResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCAddPlayerToGuildChatResponse]: (data: protobufs.CMsgClientToGCAddPlayerToGuildChatResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftSellResponse]: (data: protobufs.CMsgClientToGCUnderDraftSellResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftResponse]: (data: protobufs.CMsgClientToGCUnderDraftResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRedeemRewardResponse]: (data: protobufs.CMsgClientToGCUnderDraftRedeemRewardResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestActiveGuildChallengeResponse]: (data: protobufs.CMsgClientToGCRequestActiveGuildChallengeResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientActiveGuildChallengeUpdated]: (data: protobufs.CMsgGCToClientActiveGuildChallengeUpdated) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestReporterUpdatesResponse]: (data: protobufs.CMsgClientToGCRequestReporterUpdatesResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestGuildEventMembersResponse]: (data: protobufs.CMsgClientToGCRequestGuildEventMembersResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCReportGuildContentResponse]: (data: protobufs.CMsgClientToGCReportGuildContentResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfoResponse]: (data: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse]: (data: protobufs.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitDraftTriviaMatchAnswerResponse]: (data: protobufs.CMsgClientToGCSubmitDraftTriviaMatchAnswerResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCUnderDraftRollBackBenchResponse]: (data: protobufs.CMsgClientToGCUnderDraftRollBackBenchResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgGCToClientGuildMembersDataUpdated]: (data: protobufs.CMsgGCToClientGuildMembersDataUpdated) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCGetOWMatchDetailsResponse]: (data: protobufs.CMsgClientToGCGetOWMatchDetailsResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCSubmitOWConvictionResponse]: (data: protobufs.CMsgClientToGCSubmitOWConvictionResponse) => void;
+    [protobufs.EDOTAGCMsg.k_EMsgClientToGCClaimLeaderboardRewardsResponse]: (data: protobufs.CMsgClientToGCClaimLeaderboardRewardsResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCRecalibrateMMRResponse]: (data: protobufs.CMsgClientToGCRecalibrateMMRResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAURLResponse]: (data: protobufs.CMsgClientToGCChinaSSAURLResponse) => void;
     [protobufs.EDOTAGCMsg.k_EMsgClientToGCChinaSSAAcceptedResponse]: (data: protobufs.CMsgClientToGCChinaSSAAcceptedResponse) => void;
